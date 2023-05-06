@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: podinfo
 spec:
-  type: Noteport
+  type: NotePort
   selector:
     app: podinfo
   ports:
